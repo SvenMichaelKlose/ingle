@@ -151,7 +151,7 @@ return:
 
 error:
     sec
-    bcs return
+    bcs return          ; (jmp)
 .endproc
 
 .proc lock_bank
