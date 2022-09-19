@@ -6,7 +6,7 @@ all:
 	rm -rfv compiled
 	mkdir -pv compiled/.ingle
 	cp -rv archive/* compiled
-	cp -v src/desktop/*.bin compiled/.ingle/
+#	cp -v src/desktop/*.bin compiled/.ingle/
 	./mkfs/mkfs.ultifs ingle.img n l src/flashboot/flashboot.bin i compiled w
 	./mkfs/mkfs.ultifs image n l src/flashboot/flashboot.bin i compiled W
 	rm -fv tmp.prg

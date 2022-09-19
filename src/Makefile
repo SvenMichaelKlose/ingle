@@ -14,7 +14,7 @@ all:
 	$(MAKE) -C lib/text all
 	$(MAKE) -C lib/gui all
 	$(MAKE) -C flashboot all
-	$(MAKE) -C desktop all
+#	$(MAKE) -C desktop all
 	$(MAKE) -C lisp all
 	$(MAKE) -C sjload all
 	$(MAKE) -C ultiburn all
