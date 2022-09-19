@@ -8,7 +8,7 @@ Start with BLK1, BLK2, BLK3 and IO123 enabled.
 UltiFS has been written in C mostly.
 On launch it copies itself to RAM banks 117 (BLK1) to
 119 (BLK3), modifies the KERNALs I/O vectors to point
-at a wedge at $9800 and does a BASIC cold start.  The
+to a wedge at $9800 and does a BASIC cold start.  The
 primary wedge is responsible for banking the secondary
 wedge in to BLK1.  It checks if the device number is
 12.  If it's not, it returns to the primary wedge to
